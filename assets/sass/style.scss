@@ -1,0 +1,147 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.header{
+  padding: 3%;
+  display: flex;
+  color: rgb(75, 171, 144);
+  background: rgba(30, 76, 192, 0.714);
+  background: linear-gradient(191deg, rgb(113, 153, 11) 0%, rgba(209,161,236,1) 49%, rgba(220,182,155,1) 75%, rgba(160,223,219,1) 76%, rgba(233,148,181,1) 100%);
+  
+
+  &__section{
+      display: flex;
+      margin-left: 60px;
+
+      &__item{
+          display: flex;
+          list-style: none;
+          align-items: center;
+      }
+}
+}
+
+li{
+  margin-left: 25%;
+  
+}
+
+.main{
+  background: rgb(23, 19, 21);
+  background: linear-gradient(90deg, rgba(86, 13, 45, 0.211) 0%, rgba(148,187,233,1) 100%);
+
+  h3{
+      margin-left: 2%;
+      color: rgb(83, 5, 84);
+      margin-bottom: 2%;
+      padding-top: 2%;
+  }
+
+
+.destinos{
+      display: flex;
+      width: 100%;
+
+      img{ 
+          margin-left: 10%;
+          width: 85%;
+      }
+
+      h4{
+          width: 85%;
+          background-color: rgb(31, 116, 90);
+          margin-left: 10%;
+          color: beige;
+          text-align: center;
+      }
+
+      &__div{
+          margin-top: 2%;
+          width: 95%;
+
+      }
+  }
+}
+
+.paquetes{
+  padding-top: 3%;
+  display: flex;
+
+      &__div{
+          width: 85%;
+          margin-bottom: 3%;
+          margin-left: 2%;
+
+          &__p{
+              color: rgba(24, 25, 23, 0.37);
+          }
+
+          h4{
+              background-color: darkslategrey;
+              width: 80%;
+              padding: 4%;
+              text-align: center;
+              color: beige;
+          }
+      }
+          &__subtitle{
+              width:75%;
+
+          }
+  img{
+      width: 90%;
+  }
+  
+  p{
+      margin-left: 5%;
+      margin-top: 20px;
+      text-align: justify;
+      width: 80%;
+  }
+
+}
+
+.details{
+  text-align: left;
+  width:90%;
+  margin-left: 5%;
+  padding: 2%;
+      
+  &__summary{
+      list-style: none;
+      text-align: center;
+      color: beige;
+      font-size: 25px;
+      padding: 5%;
+
+  &__label{
+      width: 100%;
+      margin-top: 2%;
+  }
+}
+}
+
+input{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+button{
+  padding: 1%;
+  color: gray;
+}
+
+#input{
+  height: 200px;
+}
+
+footer{
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+  padding: 2%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(209,161,236,1) 49%, rgba(196,177,232,1) 56%, rgba(160,223,219,1) 72%, rgba(220,182,155,1) 75%, rgba(233,148,181,1) 100%);
+}
